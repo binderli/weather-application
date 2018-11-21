@@ -1,4 +1,4 @@
-package de.fh.albsig.weather;
+package de.fh.albsig.binderlisa86099;
 
 public class Weather {
 

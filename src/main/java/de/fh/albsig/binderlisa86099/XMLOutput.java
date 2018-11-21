@@ -1,4 +1,4 @@
-package de.fh.albsig.weather;
+package de.fh.albsig.binderlisa86099;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -33,9 +33,13 @@ public class XMLOutput {
 				.addText(weather.getHumidity());
 		data.addElement("chill")
 				.addText(weather.getChill() + " °C");
-		
-		Files.createFile(Paths.get(path + "Weather"
-						+ weather.getCity() + ".xml"));
+
+		if (Files.notExists(Paths.get(path + "Weather"
+				+ weather.getCity() + ".xml"))) {
+			Files.createFile(Paths.get(path + "Weather"
+					+ weather.getCity() + ".xml"));
+		}
+
 		Files.write(
 				Paths.get(path + "Weather"
 						+ weather.getCity() + ".xml"),

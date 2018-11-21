@@ -1,4 +1,4 @@
-package de.fh.albsig.weather;
+package de.fh.albsig.binderlisa86099;
 
 import java.io.InputStream;
 import java.util.HashMap;

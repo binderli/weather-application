@@ -1,4 +1,4 @@
-package de.fh.albsig.weather;
+package de.fh.albsig.binderlisa86099;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
