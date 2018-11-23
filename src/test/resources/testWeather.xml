@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng"
+	yahoo:count="1" yahoo:created="2018-11-22T15:34:38Z" yahoo:lang="de">
+	<results>
+		<channel>
+			<yweather:units
+				xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0"
+				distance="mi" pressure="in" speed="mph" temperature="F" />
+			<title>Yahoo! Weather - Seoul, Seoul, KR</title>
+			<link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1132599/</link>
+			<description>Yahoo! Weather for Seoul, Seoul, KR</description>
+			<language>en-us</language>
+			<lastBuildDate>Fri, 23 Nov 2018 12:34 AM KST</lastBuildDate>
+			<ttl>60</ttl>
+			<yweather:location
+				xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0"
+				city="Seoul" country="South Korea" region=" Seoul" />
+			<yweather:wind
+				xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="25"
+				direction="315" speed="8" />
+			<yweather:atmosphere
+				xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0"
+				humidity="43" pressure="1018.0" rising="0" visibility="16.1" />
+			<yweather:astronomy
+				xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0"
+				sunrise="7:20 am" sunset="5:16 pm" />
+			<image>
+				<title>Yahoo! Weather</title>
+				<width>142</width>
+				<height>18</height>
+				<link>http://weather.yahoo.com</link>
+				<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+			</image>
+			<item>
+				<title>Conditions for Seoul, Seoul, KR at 12:00 AM KST</title>
+				<geo:lat
+					xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">37.557121</geo:lat>
+				<geo:long
+					xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">126.977379</geo:long>
+				<link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1132599/</link>
+				<pubDate>Fri, 23 Nov 2018 12:00 AM KST</pubDate>
+				<yweather:condition
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="31"
+					date="Fri, 23 Nov 2018 12:00 AM KST" temp="30" text="Clear" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="34"
+					date="23 Nov 2018" day="Fri" high="43" low="26" text="Mostly Sunny" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="5"
+					date="24 Nov 2018" day="Sat" high="44" low="33"
+					text="Rain And Snow" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28"
+					date="25 Nov 2018" day="Sun" high="50" low="35"
+					text="Mostly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="26 Nov 2018" day="Mon" high="54" low="31"
+					text="Partly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="27 Nov 2018" day="Tue" high="49" low="34"
+					text="Partly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="28 Nov 2018" day="Wed" high="46" low="31"
+					text="Partly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="29 Nov 2018" day="Thu" high="50" low="29"
+					text="Partly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="30 Nov 2018" day="Fri" high="51" low="33"
+					text="Partly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="01 Dec 2018" day="Sat" high="44" low="29"
+					text="Partly Cloudy" />
+				<yweather:forecast
+					xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30"
+					date="02 Dec 2018" day="Sun" high="45" low="26"
+					text="Partly Cloudy" />
+				<description>&lt;![CDATA[&lt;img
+					src="http://l.yimg.com/a/i/us/we/52/31.gif"/&gt;
+					&lt;BR /&gt;
+					&lt;b&gt;Current Conditions:&lt;/b&gt;
+					&lt;BR /&gt;Clear
+					&lt;BR /&gt;
+					&lt;BR /&gt;
+					&lt;b&gt;Forecast:&lt;/b&gt;
+					&lt;BR /&gt; Fri - Mostly Sunny. High: 43Low: 26
+					&lt;BR /&gt; Sat - Rain And Snow. High: 44Low: 33
+					&lt;BR /&gt; Sun - Mostly Cloudy. High: 50Low: 35
+					&lt;BR /&gt; Mon - Partly Cloudy. High: 54Low: 31
+					&lt;BR /&gt; Tue - Partly Cloudy. High: 49Low: 34
+					&lt;BR /&gt;
+					&lt;BR /&gt;
+					&lt;a
+					href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1132599/"&gt;Full
+					Forecast at Yahoo! Weather&lt;/a&gt;
+					&lt;BR /&gt;
+					&lt;BR /&gt;
+					&lt;BR /&gt;
+					]]&gt;</description>
+				<guid isPermaLink="false" />
+			</item>
+		</channel>
+	</results>
+</query>
