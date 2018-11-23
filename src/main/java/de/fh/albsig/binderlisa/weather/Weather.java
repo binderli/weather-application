@@ -119,9 +119,13 @@ public class Weather {
     public void setHumidity(String humidity) {
         wHumidity = humidity;
     }
-    
+
+    /**
+     * @param weather Wetter-Objekt
+     * @return gibt String zurueck
+     */
     public String asText(Weather weather) {
-    	return weather.toString();
+        return weather.toString();
     }
 
 }

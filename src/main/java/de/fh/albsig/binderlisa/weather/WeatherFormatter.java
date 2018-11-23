@@ -10,7 +10,6 @@ import org.apache.log4j.Logger;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 
-
 /**
  * @author Lisa Binder Matrikel-Nummer: 86099
  *
