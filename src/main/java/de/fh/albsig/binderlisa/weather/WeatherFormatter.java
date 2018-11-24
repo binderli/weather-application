@@ -24,7 +24,7 @@ public class WeatherFormatter {
      * @return gibt String zurueck
      * @throws Exception falls Exceptions auftreten
      */
-    private ClassLoader loader = WeatherFormatter.class.getClassLoader();
+    private static ClassLoader loader = WeatherFormatter.class.getClassLoader();
 
     /**
      * @param weather Wetter-Objekt

@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 import de.fh.albsig.binderlisa.weather.WeatherService;
 
 /**
@@ -15,6 +17,8 @@ import de.fh.albsig.binderlisa.weather.WeatherService;
  *
  */
 public class WeatherServlet extends HttpServlet {
+    private static Logger log = Logger.getLogger(WeatherServlet.class);
+
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -26,6 +30,7 @@ public class WeatherServlet extends HttpServlet {
             out.println(weatherService.retrieveForecast(city, country));
         } catch (Exception e) {
             out.println("Error Retrieving Forecast: " + e.getMessage());
+            log.error(e.getMessage(), e);
         }
         out.flush();
         out.close();
